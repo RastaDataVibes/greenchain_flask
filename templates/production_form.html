@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Record Production</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.date.label }} {{ form.date(size=20) }}<br>
+        {{ form.good_eggs.label }} {{ form.good_eggs(size=20) }}<br>
+        {{ form.cracked_eggs.label }} {{ form.cracked_eggs(size=20) }}<br>
+        {{ form.trays_collected.label }} {{ form.trays_collected(size=20) }}<br>
+        {{ form.submit() }}
+    </form>
+{% endblock %}
+

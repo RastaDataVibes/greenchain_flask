@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Record Medical Treatment</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.date.label }} {{ form.date(size=20) }}<br>
+        {{ form.diagnosis.label }} {{ form.diagnosis(size=30) }}<br>
+        {{ form.treatment.label }} {{ form.treatment(size=30) }}<br>
+        {{ form.cost.label }} {{ form.cost(size=20) }}<br>
+        {{ form.submit() }}
+    </form>
+{% endblock %}
+

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Record Sale</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.date.label }} {{ form.date(size=20) }}<br>
+        {{ form.quantity.label }} {{ form.quantity(size=20) }}<br>
+        {{ form.unit_price.label }} {{ form.unit_price(size=20) }}<br>
+        {{ form.total_amount.label }} {{ form.total_amount(size=20) }}<br>
+        {{ form.submit() }}
+    </form>
+{% endblock %}
+
