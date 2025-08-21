@@ -23,4 +23,8 @@ A simple web application built with Flask for managing poultry farm operations i
 - Python 3.10+
 
 ## 📂 Folder Structure
+## 🎥 Demo (Screen Recording)
 
+Due to GitHub limitations, you may not be able to play the video directly in your browser.
+
+Click **"View raw"** on [vrecord.mov](media/videos/vrecord.mov) to download and watch it.
