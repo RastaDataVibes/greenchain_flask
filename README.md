@@ -10,7 +10,7 @@ A simple web application built with Flask for managing poultry farm operations i
 ## 🚀 Features
 
 - Clean web forms to input and manage daily poultry data
-- SQLite/PostgreSQL support via SQLAlchemy
+- PostgreSQL support via SQLAlchemy
 - Organized templates using Flask-Jinja
 - Categories for expenses (e.g., feed, labor, fuel)
 
