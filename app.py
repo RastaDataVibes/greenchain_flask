@@ -2,6 +2,9 @@ from flask import Flask, render_template, redirect, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from config import Config
 from forms import SaleForm, ExpenseForm, ProductionForm, MedicalRecordForm
 from models import db, Sale, Expense, Production, MedicalRecord
